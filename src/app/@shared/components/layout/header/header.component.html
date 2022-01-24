@@ -1,0 +1,21 @@
+<ng-template #template>
+	<nz-header>
+		<div class="app-header">
+			<div class="header-menu-trigger">
+				<span class="header-trigger" (click)="setCollapsed()">
+					<i class="trigger" nz-icon [nzType]="isCollapsed ? 'menu-unfold' : 'menu-fold'"></i>
+				</span>
+			</div>
+			<div class="quick-actions">
+				<span class="header-trigger" appToggleFullscreen #toggleFullScreen="appToggleFullscreen">
+					<i
+						class="trigger"
+						nz-icon
+						nzType="fullscreen"
+						[nzType]="toggleFullScreen.isFullScreen ? 'fullscreen-exit' : 'fullscreen'"
+					></i>
+				</span>
+			</div>
+		</div>
+	</nz-header>
+</ng-template>

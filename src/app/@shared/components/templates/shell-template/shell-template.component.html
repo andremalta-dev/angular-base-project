@@ -1,0 +1,9 @@
+<nz-layout class="app-layout">
+	<app-sidebar [isCollapsed]="isCollapsed"></app-sidebar>
+	<nz-layout>
+		<app-header [isCollapsed]="isCollapsed" (collapseClick)="collapse($event)"></app-header>
+		<app-main-container>
+			<router-outlet></router-outlet>
+		</app-main-container>
+	</nz-layout>
+</nz-layout>

@@ -1,0 +1,4 @@
+{
+	"*.{js,ts}": ["ng lint --fix"],
+	"*.{js,ts,json,html,less}": ["pretty-quick --staged"]
+}

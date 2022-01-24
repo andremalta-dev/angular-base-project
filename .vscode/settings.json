@@ -1,0 +1,23 @@
+{
+	"prettier.configPath": ".prettierrc",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"explorer.compactFolders": false,
+	"editor.rulers": [120],
+	"editor.insertSpaces": false,
+	"editor.formatOnSave": true,
+	"eslint.validate": ["javascript", "typescript"],
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.preferences.importModuleSpecifier": "non-relative",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true
+		},
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"cSpell.words": ["antd", "cascader", "devkit", "ngrx", "popconfirm", "scalio", "screenfull", "sider", "Zoro"]
+}
